@@ -49,7 +49,7 @@ install_package() {
     sleep 1
 }
 
-packages=("git" "python" "python2" "curl" "perl" "ruby" "php" "bash" "clang" "nano" "zip" "unzip" "wget" "openssl" "openssh" "sl" "zsh" "nodejs" "ffmpeg" "w3m" "htop" "screen" "ripgrep" "fd" "fzf" "bat" "tealdeer" "fortune" "cowsay" "neofetch" "tmux")
+packages=("git" "python" "python2" "curl" "perl" "ruby" "php" "bash" "clang" "nano" "zip" "unzip" "wget" "openssl" "openssh" "sl" "zsh" "nodejs" "ffmpeg" "w3m" "htop" "screen" "ripgrep" "fd" "fzf" "bat" "tealdeer" "fortune" "cowsay" "neofetch" "tmux" "jq" "yt-dlp" "termux-api" "rsync" "mpv" "pulseaudio" "imagemagick" "figlet" "lolcat" "cmatrix" "pv" "ncurses-utils" "tree" "lynx" "exa" "ranger")
 
 for pkg in "${packages[@]}"; do
     install_package $pkg
